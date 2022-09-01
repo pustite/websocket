@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #505562;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 500px;
+    margin: 20px auto;
+}
+.header {
+    background-color: #2d2d37;
+    text-align: center;
+    padding: 28px;
+}
+.header h1 {
+    font-size: 38px;
+    letter-spacing: 2px;
+}
+
+.date {
+    background-color: #222;
+    text-align: right;
+    font-size: 12px;
+    padding: 12px 32px 12px 0; 
+}
+.currencies {
+    /* height: 500px; */
+    background-color: #222;
+    padding: 20px 20px 16px 20px;
+}
+.currency {
+    background-color: #2d2d37;
+    border-radius: 5px;
+    list-style: none;
+    padding: 16px 16px 12px;
+    margin-bottom: 16px;
+}
+.add-currencies {
+}
+.add-currencies-btn {
+    background-color: #00b386;
+    color: fff;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-top: 3px solid #222;
+    outline: none;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.25s;
+    
+}
+.flag {
+}
+.currency-info {
+    display: flex;
+    justify-content: space-between;
+}
+.currency-input {
+}
+.currency-symbol {
+}
+.currency-name {
+}
+.base-currency-rate {
+}
